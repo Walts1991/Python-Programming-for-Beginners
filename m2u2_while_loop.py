@@ -11,3 +11,4 @@ while condition <= 10: #Condition is true while the value is less than or equal 
 
 while True:
     print('Infinite')
+    
