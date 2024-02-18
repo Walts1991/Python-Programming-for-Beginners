@@ -52,3 +52,10 @@ except NameError as n:
 except Exception as e:
     print("General exception")
     print(str(e))
+
+#Write a program to ask user to type a number, convert to integer and print message if unable to convert
+try:
+    x = int(input("Please type a number: "))
+    print(x)
+except ValueError:
+    print("Please type an integer")
