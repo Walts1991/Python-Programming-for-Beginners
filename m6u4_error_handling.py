@@ -55,7 +55,7 @@ except Exception as e:
 
 #Write a program to ask user to type a number, convert to integer and print message if unable to convert
 try:
-    x = int(input("Please type a number: "))
-    print(x)
+    y = int(input("Please type a number: "))
+    print(y)
 except ValueError:
     print("Please type an integer")
